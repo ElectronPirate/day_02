@@ -167,35 +167,35 @@ var currentPlayer = 'x';
 
 //constructed grid with every scenario where currentPlayer wins (made easier visually to go through grid...)
 
-var grid = [['x','x','x'],            //Game 1
+var grid = [['x','x','x'],            //Game 1 - top row
             ['o', null, 'o'],
             [null, null, null],
 //----------------------------------------------
-            [null, null, null],        //Game 2
+            [null, null, null],        //Game 2 - bottom row
             ['o', null, 'o'],
             ['x', 'x', 'x'],
 //----------------------------------------------
-            ['o', null, 'o'],          //Game 3
+            ['o', null, 'o'],          //Game 3 - middle row
             ['x', 'x', 'x'],
             [null, null, null],
 //----------------------------------------------
-            ['x', 'o', null],         //Game 4
+            ['x', 'o', null],         //Game 4 - left column
             ['x', null, null],
             ['x', 'o', null],
 //----------------------------------------------
-            [null, 'x','o'],        //Game 5
+            [null, 'x','o'],        //Game 5 - middle column
             [null, 'x', null],
             [null, 'x', 'o'],
 //----------------------------------------------
-            [null, 'o','x'],        //Game 6
+            [null, 'o','x'],        //Game 6 - right coulmn
             [null, null, 'x'],
             [null, 'o', 'x'],
 //----------------------------------------------
-            ['x', null,'o'],        //Game 7
+            ['x', null,'o'],        //Game 7 - right across
             [null, 'x', null],
             ['o', null, 'x'],
 //----------------------------------------------
-            ['o', null,'x'],        //Game 8
+            ['o', null,'x'],        //Game 8 - left across
             [null, 'x', null],
             ['x', null, 'o'],
 
